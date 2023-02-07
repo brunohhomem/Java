@@ -3,7 +3,20 @@ import java.util.Scanner;
 public class exercicios02 {
 
 	public static void main(String[] args) {
+//		EXERCICIO 1
+		int numero;
 		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite um número: ");
+		numero = sc.nextInt();
+	
+		if (numero < 0) {
+			System.out.println("O número é NEGATIVO.");
+		} else {
+			System.out.println("O número é POSITIVO.");
+		}
+	
+		sc.close();
 	}
 }
 
@@ -71,46 +84,4 @@ public class exercicios02 {
 //System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
 //sc.close();
 
-//Exercicio 5
-//int cod, qtde;
-//double preco;
-//
-//Scanner sc = new Scanner(System.in);
-//System.out.println("Digite qual produto deseja: ");
-//cod = sc.nextInt();
-//
-//if (cod == 1) {
-//	System.out.println("Você escolheu: Cachorro quente.");
-//	System.out.println("Digite a quantidade do produto: ");
-//	qtde = sc.nextInt();
-//	preco = qtde * 4.00;
-//	System.out.printf("Total a pagar: R$" + preco);
-//} else if (cod == 2) {
-//	System.out.println("Você escolheu: Cheese Salada.");
-//	System.out.println("Digite a quantidade do produto: ");
-//	qtde = sc.nextInt();
-//	preco = qtde * 4.50;
-//	System.out.printf("Total a pagar: R$" + preco);
-//} else if (cod == 3) {
-//	System.out.println("Você escolheu: Cheese Bacon.");
-//	System.out.println("Digite a quantidade do produto: ");
-//	qtde = sc.nextInt();
-//	preco = qtde * 5.00;
-//	System.out.printf("Total a pagar: R$" + preco);
-//} else if (cod == 4) {
-//	System.out.println("Você escolheu: Frango Teriyaki.");
-//	System.out.println("Digite a quantidade do produto: ");
-//	qtde = sc.nextInt();
-//	preco = qtde * 6.00;
-//	System.out.printf("Total a pagar: R$" + preco);
-//} else if (cod == 5) {
-//	System.out.println("Você escolheu: Refrigerante.");
-//	System.out.println("Digite a quantidade do produto: ");
-//	qtde = sc.nextInt();
-//	preco = qtde * 2.00;
-//	System.out.printf("Total a pagar: R$" + preco);
-//} else {
-//	System.out.println("Produto indisponível.");
-//}
-//
-//sc.close();
+
