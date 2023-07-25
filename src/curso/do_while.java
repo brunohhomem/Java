@@ -1,4 +1,4 @@
-package aulas;
+package curso;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -10,7 +10,6 @@ public class do_while {
         Scanner sc = new Scanner(System.in);
 
         char resp;
-
 
         do {
             System.out.print("Digite a temperatura em celsius: ");
