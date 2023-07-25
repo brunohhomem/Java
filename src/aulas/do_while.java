@@ -11,7 +11,6 @@ public class do_while {
 
         char resp;
 
-
         do {
             System.out.print("Digite a temperatura em celsius: ");
             double C = sc.nextDouble();
